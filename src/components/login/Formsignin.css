@@ -1,0 +1,88 @@
+.form-signin{
+    background-color:rgba(0, 0, 0, 0.788);
+    width: 350px;
+    display: flex;
+    height: 450px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.form-signin p{
+    color:rgb(211, 210, 210);
+    margin-top: 5px;
+    text-shadow: none;
+    margin-left: 29px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 200;
+}   
+.form-signin p span{
+    font-weight: 500;
+    cursor:pointer;
+    margin-left:2px;
+}
+.form-signin p span:hover{
+    text-decoration: underline;
+    color:rgb(155, 155, 155);
+}
+.signinform{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.signinform h1{
+    text-shadow: none;
+    color: rgb(211, 210, 210);
+    margin-bottom:20px;
+}
+.signinform input{
+    width: 230px;
+    height:20px;
+    margin-bottom: 10px;
+    background-color: rgba(88, 88, 88, 0.445);
+    border:none;
+    padding:10px;
+    color:white;
+}
+.signinform button{
+    background-color:#e50914;
+    height:40px;
+    color:rgba(210,210,210);
+    font-weight:700;
+    border:none;
+    border-radius: 3px;
+    margin-top:20px;
+    cursor:pointer;
+}
+@media (max-width:572px){
+    .signinform {
+      
+        font-size: 10px;
+        width:200px;
+      
+        display:flex;
+        justify-content:center;
+        
+    }
+    .signinform button{
+        font-size: 10px;
+        height:30px;
+       
+        padding: 10px;
+    }
+    .signinform input{
+        font-size: 10px;
+        height:10px;
+         width:180px;
+    }
+    .form-signin{
+       
+        height:300px;
+        width:250px;
+    }
+  
+    .form-signin p{
+        font-size: 10px;
+    }
+}

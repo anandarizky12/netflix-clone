@@ -1,0 +1,216 @@
+.LoginScreen{
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)),url('https://res.cloudinary.com/spinup/image/upload/v1559249123/x5ypq8ti38akyefbgvng.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ 
+}   
+.loginBackground{
+    background-color: #e50914;
+}
+.LoginScreenlogo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left:20px;
+    top: 0px;
+}
+.loginscreenbutton{
+    position: fixed;
+    right: 20px;
+    top:24px;
+    padding:10px 20px;
+    font-size: 1rem;
+    color:white;
+    background-color: #e50914;
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.contentlogin {
+  color:rgb(194, 194, 194);
+  text-shadow:none;
+  width:35rem;
+  text-align: center;
+  margin-bottom: 20px;;
+}
+
+.contentlogin h1{
+    font-size: 2.8rem;
+   
+}
+.contentlogin h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.logincontents{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height:100vh;
+   
+    
+}
+.contentsalllogin{
+        margin-top:140px;
+        position: relative;
+      
+}
+.logintextcontent p{
+    text-align: center;
+}
+
+.input-button{
+    
+    height: 55px;
+
+}
+.input-button input{
+    width:27rem;
+    height:100%;
+    border:none;
+    font-weight: 400;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.input-button button{
+    padding:15px;
+    height:100%;
+    border:none;
+    font-weight: 700;
+    box-sizing: border-box;
+    background-color: #e50914;
+    color:white;
+    border-radius: 0;
+    cursor: pointer;
+}
+.textp{
+    color:rgb(168, 168, 168);
+    text-shadow: none;
+    font-weight: 600;
+    width:35.3rem;
+    height:100px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left:10px;
+    text-shadow:none;
+  
+}
+.textp p{
+    text-shadow: none;
+}
+@media(max-width:585px){
+    .contentsalllogin{
+        width:400px;
+        
+      
+}
+.contentlogin{
+    width:400px;
+}
+.contentlogin h1{
+    font-size: 1.5rem;
+   
+}
+.contentlogin h3{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.input-button{
+    display:flex;
+    justify-content:center;
+    font-size: 10px;
+    height:40px;
+}
+.input-button input{
+    width: 400px;
+    font-size: 10px;
+    
+}
+.input-button button{
+    font-size: 7px;
+    font-weight: 400;
+}
+
+.textp p{
+    font-weight: 200;
+    font-size: 10px;
+  
+    
+
+}
+.textp{
+    display: flex;
+    justify-content: center;
+    
+    width:400px;
+}
+.loginBackground button{
+    width:75px;
+    font-size: 10px;
+}
+.loginBackground .LoginScreenlogo{
+    width: 80px;
+    padding-left: 30px;
+    top:15px;
+}
+}
+@media(max-width:421px){
+    .contentsalllogin{
+        width:250px;
+        
+      
+}
+.contentlogin{
+    width:250px;
+}
+.contentlogin h1{
+    font-size: 1.5rem;
+   
+}
+.contentlogin h3{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.input-button{
+    display:flex;
+    justify-content:center;
+    font-size: 10px;
+    height:40px;
+}
+.input-button input{
+    width: 250px;
+    font-size: 10px;
+}
+.input-button button{
+    font-size: 5px;
+    font-weight: 400;
+  
+}
+
+.textp p{
+    font-weight: 200;
+    font-size: 10px;
+  
+    
+
+}
+.textp{
+    display: flex;
+    justify-content: center;
+    
+    width:250px;
+}
+}
